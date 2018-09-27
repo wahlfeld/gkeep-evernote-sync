@@ -1,0 +1,3 @@
+#to get into alpine containers
+docker run -i -t <image> /bin/bash
+docker run -it <image> /bin/sh

@@ -1,8 +1,7 @@
 #import modules
-import json
 import gkeepapi
-import os
 import textile
+import os
 from evernote.api.client import EvernoteClient
 from evernote.edam.type import ttypes
 
@@ -37,6 +36,5 @@ def lambda_handler(event, context):
     note.content = '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note>' + enotepayload + '</en-note>'
     noteStore.updateNote(authToken,note)
 
-    return {
-        "Note Content": note.content
-    }
+    return 0
+    

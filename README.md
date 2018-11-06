@@ -1,8 +1,8 @@
 # gkeep-evernote-sync
 
-## Abandoned
+# Abandoned
 
-I'm gonna abandon this work. I was pretty heavily relying on https://github.com/kiwiz/gkeepapi for this work as Google doesn't have an official API for Keep, or any docs, or anything. Google gave Keep a big refresh sometime in Septempber/October 2018 which basically broke gkeepapi. So for that reason, I'm going to give up on this integration and move to using something like Evernote.
+I was pretty heavily relying on https://github.com/kiwiz/gkeepapi for this work as Google doesn't have an official API for Keep, or any docs, or anything. Google gave Keep a big refresh sometime in Septempber/October 2018 which basically broke gkeepapi. So for that reason, I'm going to give up on this integration and move to using something like Evernote.
 
 # Out of date
 
